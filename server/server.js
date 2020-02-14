@@ -27,6 +27,7 @@ app.post(
     // res.status(200).send('route to user page');
     // front end needs - authentication: boolean, all user info
     res.status(200).json(res.locals);
+    console.log(req)
   }
 );
 
